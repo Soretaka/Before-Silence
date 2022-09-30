@@ -6,6 +6,7 @@ using UnityEngine;
 public class NPC : ScriptableObject
 {
     public DialogueObj npcDialogue;
-    public Sprite artwork;
+    public Sprite artworkleft;
+    public Sprite artworkright;
     public Sprite bgart;
 }

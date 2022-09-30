@@ -45,7 +45,7 @@ public class DialogueActivator : MonoBehaviour, Iinteractable
     public void UpdateDialogueObject(NPC nPC)
     {
         dialogueObj = nPC.npcDialogue;
-        dialogueObj.Dialoguepic = nPC.npcDialogue.Dialoguepic;
+        dialogueObj.Dialoguepicleft = nPC.npcDialogue.Dialoguepicleft;
         //sDebug.Log(dialogueObj, dialogueObj.Dialoguepic);
     }
 
@@ -59,6 +59,6 @@ public class DialogueActivator : MonoBehaviour, Iinteractable
             player.DialogueUI.AddResponseEvents(responseEvent.Events);
         }
 
-        player.DialogueUI.showDialogue(dialogueObj, dialogueObj.Dialoguepic);
+        player.DialogueUI.showDialogue(dialogueObj, dialogueObj.Dialoguepicleft, dialogueObj.Dialoguepicright);
     }
 }

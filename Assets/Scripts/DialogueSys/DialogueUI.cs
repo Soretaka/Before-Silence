@@ -10,7 +10,8 @@ public class DialogueUI : MonoBehaviour
     [Header("References")]
     [SerializeField] private GameObject dialoguebox;
     //container npc art
-    [SerializeField] private GameObject npcArtbox;
+    [SerializeField] private GameObject npcArtboxleft;
+    [SerializeField] private GameObject npcArtboxright;
     [SerializeField] private GameObject panelBG;
 
     /*[SerializeField] private ActionLimit_Script actionLimit_Script;
@@ -37,7 +38,7 @@ public class DialogueUI : MonoBehaviour
 
 
 
-    public void showDialogue(DialogueObj dialogueobj, Sprite sprite)
+    public void showDialogue(DialogueObj dialogueobj, Sprite sprite, Sprite sprite1)
     {
         for (int i = 0; i < toggleButtons.Length; i++)
         {
@@ -46,8 +47,31 @@ public class DialogueUI : MonoBehaviour
         isOpen = true;
         panelBG.SetActive(true);
         dialoguebox.SetActive(true);
-        npcArtbox.SetActive(true);
-        npcArtbox.GetComponent<Image>().sprite = sprite;
+        if (dialogueobj.isLeft&&dialogueobj.isRight)
+        {
+            npcArtboxleft.SetActive(true);
+            npcArtboxright.SetActive(true);
+
+
+        }
+        else if (dialogueobj.isLeft)
+        {
+            npcArtboxright.SetActive(false);
+
+            npcArtboxleft.SetActive(true);
+
+        }
+        else if (dialogueobj.isRight)
+        {
+            npcArtboxleft.SetActive(false);
+
+            npcArtboxright.SetActive(true);
+
+        }
+
+        npcArtboxleft.GetComponent<Image>().sprite = sprite;
+        npcArtboxright.GetComponent<Image>().sprite = sprite1;
+
         //Debug.Log(dialogueobj.name + "wtf is sthsi");
         StartCoroutine(StepTroughDialogue(dialogueobj));
     }
@@ -86,6 +110,10 @@ public class DialogueUI : MonoBehaviour
         {
             responseHandler.ShowResponses(dialogueobj.Responses);
         }
+        else if (dialogueobj.dialogueObj)
+        {
+            showDialogue(dialogueobj.dialogueObj, dialogueobj.dialogueObj.Dialoguepicleft, dialogueobj.dialogueObj.Dialoguepicright);
+        }
         else
         {
             if (dialogueobj.isEnd)
@@ -121,7 +149,8 @@ public class DialogueUI : MonoBehaviour
     {
         isOpen = false;
         dialoguebox.SetActive(false);
-        npcArtbox.SetActive(false);
+        npcArtboxleft.SetActive(false);
+        npcArtboxright.SetActive(false);
         panelBG.SetActive(false);
         //actionLimit_Script.act = actionLimit_Script.maxact;
         textlabel.text = string.Empty;

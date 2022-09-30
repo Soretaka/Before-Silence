@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08b7df6eddbafa45a0df4cb9b79cd30, type: 3}
   m_Name: dialogue2
   m_EditorClassIdentifier: 
-  Dialoguepic: {fileID: 21300000, guid: 65c7f3226f0d4514bacb2563e15118c3, type: 3}
+  Dialoguepicleft: {fileID: 21300000, guid: b233579cebeabec408e1398909f5c1ed, type: 3}
+  Dialoguepicright: {fileID: 0}
   dialogue:
-  - "Kagura Nana (\u304B\u3050\u3089\u306A\u306A) is a female Japanese Virtual YouTuber,
-    illustrator and singer. "
+  - You sure talk big for someone in fucking distance
   responses: []
   isEnd: 0
+  isLeft: 1
+  isRight: 0
+  dialogueObj: {fileID: 0}

@@ -69,7 +69,7 @@ public class Responsehandler : MonoBehaviour
 
         if (response.Dialogueobject)
         {
-            dialogueUI.showDialogue(response.Dialogueobject, response.Dialogueobject.Dialoguepic);
+            dialogueUI.showDialogue(response.Dialogueobject, response.Dialogueobject.Dialoguepicleft, response.Dialogueobject.Dialoguepicright);
         }
         else
         {
