@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e628d882c5dd41f449aeae14a41ac820
+guid: 8b135eabc93195c44895c5e1be44dc9c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Reina_walkDown_0
+      name: Run button_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 42
+        width: 96
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,62 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d262cf901a94a7b42b0c5d0a85613458
-      internalID: 877063402
+      spriteID: 74b911d4be9ec1943bb15d822df12b17
+      internalID: -1969578507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reina_walkDown_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ccaef675b5bc8bb4ab465a3d93c34291
-      internalID: 167146836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reina_walkDown_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82092b39d53572a499317bbdbd5104ee
-      internalID: 1966819187
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reina_walkDown_3
+      name: Run button_1
       rect:
         serializedVersion: 2
         x: 96
         y: 0
-        width: 32
-        height: 42
+        width: 96
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81204dd2702ed654495435f7bdad143b
-      internalID: -1401662048
+      spriteID: 6dbbd10f549370447b5e68f87f6afc65
+      internalID: -1580267713
       vertices: []
       indices: 
       edges: []
@@ -198,10 +156,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Reina_walkDown_1: 167146836
-      Reina_walkDown_0: 877063402
-      Reina_walkDown_2: 1966819187
-      Reina_walkDown_3: -1401662048
+      Run button_1: -1580267713
+      Run button_0: -1969578507
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

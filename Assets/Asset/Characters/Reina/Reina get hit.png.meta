@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0ea1a1980a377d64cbe2e15aedfbbc17
+guid: c9a50c80adcad4945b0eba75bc0c701a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -118,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70bf5325d2fd19448bbe079bc237e54d
-      internalID: -715648990
+      spriteID: f4946e2efb4bb01498e345deb362d4df
+      internalID: 410570362
       vertices: []
       indices: 
       edges: []
@@ -139,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1591e8b38238c94186d70bea2077ac2
-      internalID: -1322003401
+      spriteID: d51e22965e11b504f8f95b27a59b818e
+      internalID: -9548899
       vertices: []
       indices: 
       edges: []
@@ -156,8 +156,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Reina get hit_0: -715648990
-      Reina get hit_1: -1322003401
+      Reina get hit_0: 410570362
+      Reina get hit_1: -9548899
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f018968cd1359604a8d6d95a8f324b17
+guid: bd7451389eaf8704fbffa36e710c7017
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -118,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a734e66dc6cc0bb4f8a9434dacc279dc
-      internalID: 1824027903
+      spriteID: 81f6060dd07d4f446a63f305d4d29961
+      internalID: 1943800934
       vertices: []
       indices: 
       edges: []
@@ -139,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e19452e1c7ce65e4caeb99d3f13d9b35
-      internalID: -1883564647
+      spriteID: 4dae7ecb3c3b89e4ea078654c47acfbd
+      internalID: -2022256835
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c004c47eef62667408fa5d4841e21651
-      internalID: -777736410
+      spriteID: 170d358bf75a1ed4f80e083e3df2a4a7
+      internalID: -1727238782
       vertices: []
       indices: 
       edges: []
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b21a872acf0e39b4688664774d3b4425
-      internalID: -363804375
+      spriteID: 8118c83c50c083f489a28289436d2081
+      internalID: -412941895
       vertices: []
       indices: 
       edges: []
@@ -198,10 +198,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Reina Fainted_3: -363804375
-      Reina Fainted_0: 1824027903
-      Reina Fainted_2: -777736410
-      Reina Fainted_1: -1883564647
+      Reina Fainted_3: -412941895
+      Reina Fainted_0: 1943800934
+      Reina Fainted_2: -1727238782
+      Reina Fainted_1: -2022256835
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -118,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c628d7f8705d024fa5d0c80855a3385
-      internalID: -876293424
+      spriteID: fe0716257c2de3d47b1a9672c76a5caa
+      internalID: 1963325627
       vertices: []
       indices: 
       edges: []
@@ -139,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab286efe2cd85b6459bd33ce506fc7e3
-      internalID: 891284132
+      spriteID: 7925241a3c0415c49a2d3f8840fe2e2d
+      internalID: -162802583
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcd2aaeb9642a5e4dbc2c7888775854e
-      internalID: 1834811471
+      spriteID: 2b567d9094a07974aab974c9e6bc63df
+      internalID: -1392980217
       vertices: []
       indices: 
       edges: []
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc3792e8a7330c94592dd0c6c26765fb
-      internalID: -107526698
+      spriteID: d433bbe662a70184ba4d2ecc1a394f71
+      internalID: 700273577
       vertices: []
       indices: 
       edges: []
@@ -198,10 +198,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Reina_walkLeft_2: 1834811471
-      Reina_walkLeft_1: 891284132
-      Reina_walkLeft_0: -876293424
-      Reina_walkLeft_3: -107526698
+      Reina_walkLeft_2: -1392980217
+      Reina_walkLeft_1: -162802583
+      Reina_walkLeft_0: 1963325627
+      Reina_walkLeft_3: 700273577
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
