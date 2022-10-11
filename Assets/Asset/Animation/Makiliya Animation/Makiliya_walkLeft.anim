@@ -29,6 +29,17 @@ AnimationClip:
     path: 
     classID: 212
     script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 709439235, guid: d7ccd8864f7c3fc4b9371dc3637feabd, type: 3}
+    - time: 0.41666666
+      value: {fileID: -921827837, guid: d7ccd8864f7c3fc4b9371dc3637feabd, type: 3}
+    - time: 0.8333333
+      value: {fileID: 709439235, guid: d7ccd8864f7c3fc4b9371dc3637feabd, type: 3}
+    attribute: m_Sprite
+    path: MakiliyaShadow_sprite
+    classID: 212
+    script: {fileID: 0}
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -43,10 +54,20 @@ AnimationClip:
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 1301991009
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: 1326456176, guid: 29521c5fbb0b95a49bc88c4e616a883d, type: 3}
     - {fileID: -1604146054, guid: 29521c5fbb0b95a49bc88c4e616a883d, type: 3}
     - {fileID: 1326456176, guid: 29521c5fbb0b95a49bc88c4e616a883d, type: 3}
+    - {fileID: 709439235, guid: d7ccd8864f7c3fc4b9371dc3637feabd, type: 3}
+    - {fileID: -921827837, guid: d7ccd8864f7c3fc4b9371dc3637feabd, type: 3}
+    - {fileID: 709439235, guid: d7ccd8864f7c3fc4b9371dc3637feabd, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

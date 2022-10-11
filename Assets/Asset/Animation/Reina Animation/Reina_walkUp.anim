@@ -33,6 +33,21 @@ AnimationClip:
     path: 
     classID: 212
     script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: -1658551810, guid: 11529ffdf083ce74ea2c59a2c7bdea03, type: 3}
+    - time: 0.25
+      value: {fileID: 230361861, guid: 11529ffdf083ce74ea2c59a2c7bdea03, type: 3}
+    - time: 0.5
+      value: {fileID: 218285715, guid: 11529ffdf083ce74ea2c59a2c7bdea03, type: 3}
+    - time: 0.75
+      value: {fileID: -1134490028, guid: 11529ffdf083ce74ea2c59a2c7bdea03, type: 3}
+    - time: 1
+      value: {fileID: -1658551810, guid: 11529ffdf083ce74ea2c59a2c7bdea03, type: 3}
+    attribute: m_Sprite
+    path: ReinaShadow_sprite
+    classID: 212
+    script: {fileID: 0}
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -47,12 +62,24 @@ AnimationClip:
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 2353680000
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: -726295437, guid: 1792323f6a7b8054ebd66dd9b5105030, type: 3}
     - {fileID: 977186582, guid: 1792323f6a7b8054ebd66dd9b5105030, type: 3}
     - {fileID: 489305788, guid: 1792323f6a7b8054ebd66dd9b5105030, type: 3}
     - {fileID: -158082127, guid: 1792323f6a7b8054ebd66dd9b5105030, type: 3}
     - {fileID: -726295437, guid: 1792323f6a7b8054ebd66dd9b5105030, type: 3}
+    - {fileID: -1658551810, guid: 11529ffdf083ce74ea2c59a2c7bdea03, type: 3}
+    - {fileID: 230361861, guid: 11529ffdf083ce74ea2c59a2c7bdea03, type: 3}
+    - {fileID: 218285715, guid: 11529ffdf083ce74ea2c59a2c7bdea03, type: 3}
+    - {fileID: -1134490028, guid: 11529ffdf083ce74ea2c59a2c7bdea03, type: 3}
+    - {fileID: -1658551810, guid: 11529ffdf083ce74ea2c59a2c7bdea03, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

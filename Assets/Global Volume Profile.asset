@@ -93,6 +93,7 @@ MonoBehaviour:
   - {fileID: 665930568420207874}
   - {fileID: -7441564957930293623}
   - {fileID: 7272785034655204322}
+  - {fileID: 4457195321807569443}
 --- !u!114 &665930568420207874
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -398,6 +399,28 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
+--- !u!114 &4457195321807569443
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70afe9e12c7a7ed47911bb608a23a8ff, type: 3}
+  m_Name: SplitToning
+  m_EditorClassIdentifier: 
+  active: 0
+  shadows:
+    m_OverrideState: 1
+    m_Value: {r: 0.27901384, g: 0.30811676, b: 0.4245283, a: 1}
+  highlights:
+    m_OverrideState: 0
+    m_Value: {r: 0.6132076, g: 0.6132076, b: 0.6132076, a: 1}
+  balance:
+    m_OverrideState: 1
+    m_Value: 15
 --- !u!114 &7272785034655204322
 MonoBehaviour:
   m_ObjectHideFlags: 3

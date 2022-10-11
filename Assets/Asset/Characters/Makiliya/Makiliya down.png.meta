@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 32e9ad57fcb1dde449f1730c748dcd1d
+guid: b4bc84753b67f334a9608f8cce6cd304
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
         x: 0
         y: 0
         width: 36
-        height: 52
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2d3c473a50fc8d4bb6a4959f74c9955
-      internalID: 1639246520
+      spriteID: abfc81c815de65843b9bf6b99498dcf3
+      internalID: -185892307
       vertices: []
       indices: 
       edges: []
@@ -131,7 +131,7 @@ TextureImporter:
         x: 36
         y: 0
         width: 36
-        height: 52
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b598389e86b0e80488d8d15274a2e6b7
-      internalID: -1713598752
+      spriteID: 70b462c469bc24e4bbefd2bbcadec629
+      internalID: -1174883066
       vertices: []
       indices: 
       edges: []
@@ -152,7 +152,7 @@ TextureImporter:
         x: 72
         y: 0
         width: 36
-        height: 52
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8700c9ac27defc944921c60c9c52581b
-      internalID: 900453303
+      spriteID: f9664f8e142af8f48b4cc7c1c22ddfe3
+      internalID: -1982376762
       vertices: []
       indices: 
       edges: []
@@ -173,7 +173,7 @@ TextureImporter:
         x: 108
         y: 0
         width: 36
-        height: 52
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cff6e51c101e78444925a0212c4a9a5c
-      internalID: -305453029
+      spriteID: 4c67d78a90575094e9c51963bcb6cd30
+      internalID: -167867568
       vertices: []
       indices: 
       edges: []
@@ -198,10 +198,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Makiliya down_3: -305453029
-      Makiliya down_1: -1713598752
-      Makiliya down_2: 900453303
-      Makiliya down_0: 1639246520
+      Makiliya down_3: -167867568
+      Makiliya down_1: -1174883066
+      Makiliya down_2: -1982376762
+      Makiliya down_0: -185892307
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

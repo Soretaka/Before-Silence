@@ -29,6 +29,17 @@ AnimationClip:
     path: 
     classID: 212
     script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: -189779951, guid: bbb26dc7e8a2d7c4f9fa3e6553131f80, type: 3}
+    - time: 0.41666666
+      value: {fileID: 1446027712, guid: bbb26dc7e8a2d7c4f9fa3e6553131f80, type: 3}
+    - time: 0.8333333
+      value: {fileID: -189779951, guid: bbb26dc7e8a2d7c4f9fa3e6553131f80, type: 3}
+    attribute: m_Sprite
+    path: BabadoShadow_sprite
+    classID: 212
+    script: {fileID: 0}
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -43,10 +54,20 @@ AnimationClip:
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 1855148195
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: -1178059304, guid: 7a5f7b5a534cd0941afd625bdb311440, type: 3}
     - {fileID: -2084064657, guid: 7a5f7b5a534cd0941afd625bdb311440, type: 3}
     - {fileID: -1178059304, guid: 7a5f7b5a534cd0941afd625bdb311440, type: 3}
+    - {fileID: -189779951, guid: bbb26dc7e8a2d7c4f9fa3e6553131f80, type: 3}
+    - {fileID: 1446027712, guid: bbb26dc7e8a2d7c4f9fa3e6553131f80, type: 3}
+    - {fileID: -189779951, guid: bbb26dc7e8a2d7c4f9fa3e6553131f80, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
