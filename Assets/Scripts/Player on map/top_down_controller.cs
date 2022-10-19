@@ -7,6 +7,7 @@ public class top_down_controller : MonoBehaviour
     public float moveSpeed = 5f;
 
     public Rigidbody2D rb;
+    public Animator animator;
 
     Vector2 movement;
     // Update is called once per frame
@@ -14,6 +15,11 @@ public class top_down_controller : MonoBehaviour
     {
       movement.x = Input.GetAxisRaw("Horizontal");
       movement.y = Input.GetAxisRaw("Vertical");
+
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
+        
     }
     
     void FixedUpdate()
