@@ -4679,8 +4679,9 @@ GameObject:
   - component: {fileID: 1868010043}
   - component: {fileID: 1868010042}
   - component: {fileID: 1868010041}
-  - component: {fileID: 1868010040}
   - component: {fileID: 1868010044}
+  - component: {fileID: 1868010040}
+  - component: {fileID: 1868010045}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -4700,30 +4701,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfa09f2e00e5922498ad103ba2586176, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  body: {fileID: 1868010041}
-  SpriteRenderer: {fileID: 1868010042}
-  upSprites:
-  - {fileID: -980925139, guid: fbe82c618e69ae6439d50617da52d158, type: 3}
-  - {fileID: 988313563, guid: fbe82c618e69ae6439d50617da52d158, type: 3}
-  - {fileID: -1184822491, guid: fbe82c618e69ae6439d50617da52d158, type: 3}
-  - {fileID: -405856840, guid: fbe82c618e69ae6439d50617da52d158, type: 3}
-  downSprites:
-  - {fileID: 1654588937, guid: bc3ff79d6096d984d9212fd115ea4e96, type: 3}
-  - {fileID: -885761928, guid: bc3ff79d6096d984d9212fd115ea4e96, type: 3}
-  - {fileID: -1516441740, guid: bc3ff79d6096d984d9212fd115ea4e96, type: 3}
-  - {fileID: 1686749407, guid: bc3ff79d6096d984d9212fd115ea4e96, type: 3}
-  leftSprites:
-  - {fileID: -2132215663, guid: 410425b382cc8a94e835699739c890eb, type: 3}
-  - {fileID: 1874293451, guid: 410425b382cc8a94e835699739c890eb, type: 3}
-  - {fileID: -1032487646, guid: 410425b382cc8a94e835699739c890eb, type: 3}
-  - {fileID: -697441508, guid: 410425b382cc8a94e835699739c890eb, type: 3}
-  rightSprites:
-  - {fileID: 2141390806, guid: dd31bc97e2ba08243907e3a8757eec78, type: 3}
-  - {fileID: 324436262, guid: dd31bc97e2ba08243907e3a8757eec78, type: 3}
-  - {fileID: 488031539, guid: dd31bc97e2ba08243907e3a8757eec78, type: 3}
-  - {fileID: 1273108485, guid: dd31bc97e2ba08243907e3a8757eec78, type: 3}
-  walkSpeed: 2
-  frameRate: 6
+  moveSpeed: 5
+  rb: {fileID: 1868010041}
+  animator: {fileID: 1868010045}
 --- !u!50 &1868010041
 Rigidbody2D:
   serializedVersion: 4
@@ -4743,7 +4723,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!212 &1868010042
 SpriteRenderer:
@@ -4828,6 +4808,26 @@ CapsuleCollider2D:
   m_Offset: {x: 0.10984938, y: -0.31858402}
   m_Size: {x: 0.2898828, y: 0.3640834}
   m_Direction: 0
+--- !u!95 &1868010045
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868010039}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fd03082909693df4ea9753da9af8acc3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1929683495
 GameObject:
   m_ObjectHideFlags: 0
