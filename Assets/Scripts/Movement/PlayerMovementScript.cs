@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovementScript : MonoBehaviour
+public class PlayerMovementScript : MonoBehaviour, ISaveable
 {
 
     private Rigidbody2D rb;
@@ -12,6 +12,29 @@ public class PlayerMovementScript : MonoBehaviour
     [SerializeField] private DialogueUI dialogueUI;
     public DialogueUI DialogueUI => dialogueUI;
     public Iinteractable Interactable { get; set; }
+
+    public string m_UniqueID="player";
+    string ISaveable.UniqueID { get { return m_UniqueID; } set { m_UniqueID = value; } }
+
+    
+    public Dictionary<string, object> OnSave()
+    {
+
+        //isDoorOpen = (bool)data[nameof(isDoorOpen)];
+        //isLocked = (bool)data[nameof(isLocked)];
+        Dictionary<string, object> data = new Dictionary<string, object>();
+        data.Add(nameof(gameObject.transform.position.x), gameObject.transform.position.x);
+        data.Add(nameof(gameObject.transform.position.y), gameObject.transform.position.y);
+        return data;
+    }
+
+    public void OnLoad(Dictionary<string, object> data)
+    {
+        gameObject.transform.position =new Vector2( (float)data[nameof(gameObject.transform.position.x)], (float)data[nameof(gameObject.transform.position.y)]);
+
+    }
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -84,4 +107,5 @@ public class PlayerMovementScript : MonoBehaviour
 
     }
 
+    
 }
