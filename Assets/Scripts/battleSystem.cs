@@ -27,7 +27,7 @@ public class battleSystem : MonoBehaviour
         GameObject playerGO = Instantiate(playerPrefab, playerBattleStation);
         playerUnit = playerGO.GetComponent <unit>();
         GameObject enemyGO = Instantiate(enemyPrefab, enemyBattleStation);
-        enemyUnit = enemeyGO.GetComponent <unit> ();
+        enemyUnit = enemyGO.GetComponent <unit> ();
         
     }
 }
