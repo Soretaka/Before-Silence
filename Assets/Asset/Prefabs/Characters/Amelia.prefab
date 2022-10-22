@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8296117739195943458}
   m_Layer: 0
   m_Name: Amelia_sprite
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8296117739195943900}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.4, y: 0.46, z: -0.765186}
+  m_LocalPosition: {x: 0, y: 0.46, z: -0.765186}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -124,6 +124,8 @@ MonoBehaviour:
   moveSpeed: 3
   rb: {fileID: 8296117739195943456}
   animator: {fileID: 8296117739195943903}
+  startingPosition: {fileID: 11400000, guid: a7f788ada4fdad74f819e446000caf30, type: 2}
+  joint: {fileID: 10107637390089014}
 --- !u!50 &8296117739195943456
 Rigidbody2D:
   serializedVersion: 4
@@ -255,8 +257,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8296117740395077493}
   - component: {fileID: 8296117740395077492}
-  - component: {fileID: 8296117740395077491}
   - component: {fileID: 8296117740395077494}
+  - component: {fileID: 10107637390089014}
   m_Layer: 0
   m_Name: Amelia
   m_TagString: Untagged
@@ -301,7 +303,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!255 &8296117740395077491
+--- !u!210 &8296117740395077494
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8296117740395077490}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!255 &10107637390089014
 FixedJoint2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -316,17 +329,6 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 1.3999996, y: -0.45999908}
+  m_ConnectedAnchor: {x: 0, y: -0.45999908}
   m_DampingRatio: 0
   m_Frequency: 0
---- !u!210 &8296117740395077494
-SortingGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8296117740395077490}
-  m_Enabled: 1
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
