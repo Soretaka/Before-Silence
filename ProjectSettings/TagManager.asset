@@ -6,6 +6,9 @@ TagManager:
   tags:
   - StartPos
   - Transition
+  - Hero
+  - Enemy
+  - Dead
   layers:
   - Default
   - TransparentFX
