@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfa09f2e00e5922498ad103ba2586176, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  moveSpeed: 5
   rb: {fileID: 8296117739195943456}
   animator: {fileID: 8296117739195943903}
   startingPosition: {fileID: 11400000, guid: a7f788ada4fdad74f819e446000caf30, type: 2}

@@ -4,9 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class FighterStats : MonoBehaviour, IComparable
 {
+    public string sceneToLoad;
+    
     [SerializeField]
     private Animator animator;
 
@@ -73,6 +76,7 @@ public class FighterStats : MonoBehaviour, IComparable
             gameObject.tag = "Dead";
             Destroy(healthFill);
             Destroy(gameObject);
+            SceneManager.LoadScene(sceneToLoad);
         } else if (damage > 0)
         {
             xNewHealthScale = healthScale.x * (healthNow / startHealth);

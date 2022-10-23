@@ -240,6 +240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aedfd3003222744986f152ea3c8b1de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneToLoad: Mountain Path 3
   animator: {fileID: 69815290}
   healthFill: {fileID: 458863999}
   magicFill: {fileID: 0}
@@ -5270,6 +5271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aedfd3003222744986f152ea3c8b1de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneToLoad: Mountain Path 3
   animator: {fileID: 892935835}
   healthFill: {fileID: 954628055}
   magicFill: {fileID: 0}

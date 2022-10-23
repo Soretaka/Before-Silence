@@ -19778,6 +19778,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1058876866}
   - component: {fileID: 1058876865}
+  - component: {fileID: 1058876867}
+  - component: {fileID: 1058876868}
   m_Layer: 0
   m_Name: Bhuta statue
   m_TagString: Untagged
@@ -19845,13 +19847,54 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1058876864}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -39.72615, y: -32.45, z: 0}
+  m_LocalPosition: {x: -39.707, y: -32.495, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1058876867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058876864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfea05747fdf0f44bb6711429c7292bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Battle Scene
+  playerPosition: {x: -40, y: -34.08068}
+  playerStorage: {fileID: 11400000, guid: a7f788ada4fdad74f819e446000caf30, type: 2}
+--- !u!61 &1058876868
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058876864}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.047504425, y: -0.83130074}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.375, y: 2.25}
+    newSize: {x: 3.375, y: 2.25}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.139923, y: 0.5873985}
+  m_EdgeRadius: 0
 --- !u!1001 &1062782337
 PrefabInstance:
   m_ObjectHideFlags: 0
