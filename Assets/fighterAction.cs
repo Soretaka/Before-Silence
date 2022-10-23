@@ -1,45 +1,46 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class fighterAction : MonoBehaviour
 {
-    private GameObject enemy;
     private GameObject hero;
+    private GameObject enemy;
 
     [SerializeField]
-    private GameObject NormalAttackPreFab;
+    private GameObject normalAttackPrefab;
 
     [SerializeField]
-    private GameObject SkillAttackPreFab;
+    private GameObject skillAttackPrefab;
 
     [SerializeField]
-    private Sprite FaceIcon;
+    private Sprite faceIcon;
 
     private GameObject currentAttack;
-    private GameObject normalAttack;
-    private GameObject skillAttack;
-
+    
+    void Awake()
+    {
+        hero = GameObject.FindGameObjectWithTag("Hero");
+        enemy = GameObject.FindGameObjectWithTag("Enemy");
+    }
     public void SelectAttack(string btn)
     {
         GameObject victim = hero;
-        if(tag=="Hero"){
-            currentAttack = normalAttack;
+        if (tag == "Hero")
+        {
+            victim = enemy;
         }
-        if (btn.CompareTo("normalAttack") == 0)
+        if (btn.CompareTo("melee") == 0)
         {
-            Debug.Log("normalAttack");
-        } else if (btn.CompareTo("skillAttack") == 0)
+            normalAttackPrefab.GetComponent<AttackScript>().Attack(victim);
+
+        } else if (btn.CompareTo("range") == 0)
         {
-            Debug.Log("skillAttack");
-        }else if (btn.CompareTo("item") == 0)
+            skillAttackPrefab.GetComponent<AttackScript>().Attack(victim);
+        } else
         {
-            Debug.Log("item");
-        }else if (btn.CompareTo("status") == 0)
-        {
-            Debug.Log("run");
-        }else{
-            Debug.Log("huh");
+            Debug.Log("Run");
         }
     }
 }
