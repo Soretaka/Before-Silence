@@ -8,4 +8,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Battle UI.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Map/Reina's Bedroom.unity
+    guid: 6d0749323f7199a40940414e2d3fe709
+  - enabled: 1
+    path: Assets/Scenes/Map/Reina's Hut.unity
+    guid: bd8f112e8e6297747bfc1b6b0452c9eb
+  - enabled: 1
+    path: Assets/Scenes/Map/Temple Area.unity
+    guid: 78de1101fa6016449a4159415ff3997a
+  - enabled: 1
+    path: Assets/Scenes/Map/Mountain Path 3.unity
+    guid: d676e3f1afd2e9747a0e92de81687ec3
+  - enabled: 1
+    path: Assets/Scenes/Map/Mountain Path 2.unity
+    guid: 13bf074be2e969148a77cd86f821b2a1
+  - enabled: 1
+    path: Assets/Scenes/Map/Mountain Path 1.unity
+    guid: ca1bd24add0c42542b5821554f441d4e
+  - enabled: 1
+    path: Assets/Scenes/Map/Beach.unity
+    guid: 213659f3fa456a0459c6bded0e2ac487
   m_configObjects: {}

@@ -9,13 +9,22 @@ public class top_down_controller : MonoBehaviour
 
     public Rigidbody2D rb;
     public Animator animator;
+    public VectorValue startingPosition;
+    public FixedJoint2D joint;
+
+    Vector2 startDir;
 
     Vector2 movement;
+
+    private void Start() {
+        transform.parent.position = startingPosition.initialValue;
+    }
+
     // Update is called once per frame
     void Update()
     {
-      movement.x = Input.GetAxisRaw("Horizontal");
-      movement.y = Input.GetAxisRaw("Vertical");
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
 
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
@@ -33,6 +42,7 @@ public class top_down_controller : MonoBehaviour
     {
         rb.MovePosition(rb.position + movement.normalized * moveSpeed * Time.fixedDeltaTime);
     }
+
 }
 
 
