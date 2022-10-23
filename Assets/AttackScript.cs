@@ -58,6 +58,7 @@ public class AttackScript : MonoBehaviour
                 battleText.text = damage.ToString();
                 Invoke("turnoffBattleText", 1f);
             }
+            Invoke("turnoffBattleMenu",0f);
             owner.GetComponent<Animator>().Play(animationName);
             targetStats.ReceiveDamage(Mathf.CeilToInt(damage));
             if(targetStats.healthNow <= 0){
@@ -73,6 +74,13 @@ public class AttackScript : MonoBehaviour
     void turnoffBattleText()
     {
         battleText.gameObject.SetActive(false);
+    }
+
+    void turnoffBattleMenu(){
+        GameObject.Find("Action Group").SetActive(false);
+    }
+    void turnonBattleMenu(){
+        GameObject.Find("Action Group").SetActive(true);
     }
     void SkipTurnContinueGame()
     {
