@@ -16,8 +16,12 @@ public class top_down_controller : MonoBehaviour
 
     Vector2 movement;
 
-    private void Start() {
+    private void Awake() {
         transform.parent.position = startingPosition.initialValue;
+    }
+
+    private void Start() {
+        
     }
 
     // Update is called once per frame

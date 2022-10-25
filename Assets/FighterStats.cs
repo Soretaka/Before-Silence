@@ -122,6 +122,5 @@ public class FighterStats : MonoBehaviour, IComparable
         int nex = nextActTurn.CompareTo(((FighterStats)otherStats).nextActTurn);
         return nex;
     }
-
 }
 
